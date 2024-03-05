@@ -1,0 +1,582 @@
+
+@media screen and (max-width: 580px){
+    .price-bg{
+        height: 90vh;
+    }
+}
+@media screen and (max-width: 374px){
+    .footer-action input{
+        width: 65%;
+    }
+    .footer-action input[type="submit"]{
+        width: 30%;
+        margin-top: 10px;
+    }
+    input[type=checkbox], input[type=radio] {
+        box-sizing: border-box;
+        padding: 0;
+        width: 11px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px){
+
+
+    .for-desktop{
+        display: none;
+    }
+    #background-video{
+	height: 90vh;
+    border-radius: 0px 0px 100px 0px;
+}
+    .for-mobile{
+        display: block;
+    }
+    #navbar button:focus{
+        outline: none;
+    }
+    section#navbar {
+        padding: 10px 0;
+        padding-top: 0;
+    }
+    .navbar-toggler-icon{
+        margin-top: 20px;
+    }
+    .nav-item{
+        padding-left: 0;
+        padding-bottom: 15px;
+        
+    }
+    .navbar-nav{
+        margin-left: 0;
+    }
+    .navbar button{
+      
+        margin-left: 0;
+    }
+    .hero-welcome {
+        
+        width: 100%;
+    }
+    h1 {
+        font-size: 40px!important;
+    }
+    h2 {
+        font-size: 30px!important;
+    }
+    .hero-welcome .gobal-btn{
+        text-align: center;
+    }
+    .hero-mobile{
+        width: 100%;
+        
+    }
+    .mobile-video{
+        width: 100%;
+        background: url(../images/preloader-phone.svg) center center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        height: 82vh;
+        margin-top: 30px;
+        border-radius: 0px 0px 168.657px 0px;
+    }
+    .center-title{
+        width: 100%;
+    }
+    .programe{
+        padding: 50px 0 0;
+    }
+   
+    .price-bg {
+        height: 73vh;
+        background: linear-gradient(90deg, rgba(18,18,18,0.2553396358543417) 0%, rgba(36,36,36,0.4066001400560224) 100%),url(../images/price-phone.webp);
+        background-size: cover;
+        align-items: start;
+        padding-top: 70px;
+    }
+    .price-content{
+        display: none;
+    }
+    .price-detailes {
+        width: 95%;
+        justify-content: flex-start;
+    }
+    .price-detailes .gobal-btn a{
+        background: #162b3f;
+    }
+    .price-container{
+        width: 100%;
+    }
+    .price-color {
+        background: #162B3F;
+        padding: 50px 0 50px;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .price-bottom{
+        margin-top: 0;
+        padding: 20px 15px;
+    }
+    .price-bottom-middle h3{
+        font-size: 22px!important;
+    }
+    .price-bottom-middle {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .section-padding{
+        padding: 50px 0;
+    }
+    .faq-heading h5 {
+        font-size: 20px;
+        text-align: center!important;
+    }
+    .faq-heading h4 {
+        font-size: 20px;
+    }
+
+    .testmonail{
+        border-radius: 0;
+    }
+    .owl-dots{
+        bottom: -30px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        padding: 50px 0 30px;
+    }
+    .footer-logo {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .footer-menu{
+        width: 100%;
+        display: flex;
+        
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .footer-menu ul{
+        display: flex;
+        justify-content: space-between;
+        width: 1005;
+    }
+    .footer-action {
+        width: 100%;
+    }
+    .footer-bottom {
+        
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    
+    .footer-menu ul li {
+        margin-bottom: 10px;
+    }
+    .join-mobile{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: -10px;
+    }
+    .join-mobile li a{
+        font-size: 16px;
+    }
+    .join-mobile li {
+        font-size: 16px!important;
+    }
+    .footer-action{
+        padding-top: 20px;
+        border-top: 1px #FFFFFF33 solid;
+    }
+    .policy-phone{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+       flex-wrap: wrap;
+       flex-direction: column-reverse;
+    }
+    .policy-phone li{
+        margin-bottom: 10px;
+    }
+    .page-hero-content{
+        padding: 40px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .page-bg-hero{
+        background: url(../images/about.jpg) center center;
+        width: 100%;
+        height: 50vh;
+        background-size: cover;
+    }
+    .about-text h2{
+        font-size: 20px!important;
+    }
+    .about-video {
+        height: 70vh;
+        border-radius: 0 0px 0px 0px;
+    }
+    .about-video-container{
+        flex-direction: column;
+    }
+    .about-video-text {
+        width: 90%;
+    }
+    .about-message {
+        width: 90%;
+        padding-top: 50px;
+    }
+    .about-message img{
+        width: 100%;
+    }
+    .team-iteam {
+        padding: 50px 20px;
+    }
+    .team-box {
+        text-align: center;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .team-container{
+        justify-content: center;
+    }
+    .join-team {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .corporate-phone{
+        background: url(../images/corporate-bg.jpg) center center;
+        background-size: cover;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .invest-big{
+        flex-direction: column;
+    }
+    .invest-left{width: 100%;}
+    .invest-right{
+        width: 100%;
+        padding: 0;
+    }
+    .attention {
+        height: 50vh;
+    }
+    .attention h2 {
+
+        right: 40px;
+        width: 70%;
+        background: #162B3F;
+        font-size: 22px!important;
+        padding: 20px;
+    }
+    .corportae-box {
+        text-align: center;
+        height: auto;
+        padding:10px 35px;
+        background: #f2f2f200;
+        margin-bottom: 20px;
+    }
+    .productivity{
+        height: auto;
+        margin: 20px 0;
+    }
+    .mrb-30{
+        margin-bottom: 30px;
+    }
+
+    .pricing .center-title {
+        width: 100%;
+    }
+    .pricing{
+        background: #fff;
+    }
+    .pricing .center-title h2 {
+        color: #162B3F;
+    }
+    .pricing .center-title p {
+        color: #162B3F;
+    }
+    .price-box{
+        background: #162B3F;
+        margin-bottom: 30px;
+        height: auto;
+    }
+    .price-box.first-price {
+        background: #F0EBDD;
+    }
+    .price-box li p{
+        color: #fff;
+    }
+    .price-box.first-price li p{
+        color: #162B3F;
+    }
+    .price-box h4::after {
+        top: 137px;
+    }
+    .price-bottom{
+        background: #162B3F;
+    }
+    .programe-benefit{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .programe-bottom{
+        width: 90%;
+        padding: 10px
+    }
+    .programe-bottom p{
+        font-size: 14px;
+    }
+    .programe-bottom h4{
+        font-size: 16px;
+    }
+    .slider-three-left {
+        position: absolute;
+        left: 0%;
+        top: 46px;
+        width: 83%;
+    }
+    .slider-last-left {
+        position: absolute;
+        left: 0%;
+        top: 5px;
+        width: 82%;
+    }
+    .mobile-programe-box{
+        width: 100%;
+        position: relative;
+    }
+    .mobile-programe-box img{
+        width: 100%;
+        
+    }
+    .afterprograme-content {
+        padding: 15px 0;
+    }
+    .afterprograme-content i {
+        font-size: 10px;
+        margin-right: 7px;
+    }
+    .afterprograme-content h4 {
+        font-size: 20px;
+        font-family: 'BwGradual';
+        display: flex;
+        align-items: center;
+    }
+    .mobile-programe-box .message-type {
+        left: 14px;
+        position: absolute;
+        width: 70%;
+        bottom: 18px;
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+    .thierd-message{
+        position: absolute;
+        width: 90%;
+        bottom: 50px;
+    }
+    .thierd-message .message-type{
+        background: #F6C7D8;
+    }
+    .message-box{
+        position: absolute;
+        bottom: -40px;
+        left: 20px;
+        width: 100%;
+         display: none;
+    }
+    .message-box img {
+        margin-top: 20px;
+        width: 83px!important;
+    }
+    .step-box-all {
+        width: 100%;
+        display: flex;
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .step-box {
+        width: 49%;
+        margin-bottom: 10px;
+        padding: 20px 10px;
+        height: auto;
+        
+    }
+    .step-box::after{
+        display: none;
+    }
+    .step-box h3{
+        font-size: 20px!important;
+    }
+    .step-box h4{
+        font-size: 16px;
+    }
+    .step-box p{
+        font-size: 14px;
+    }
+    .howit-work-phone .gobal-btn{
+        text-align: center;
+    }
+    .choach-all .owl-dots{
+        bottom: -10px;
+    }
+
+    .choach-filter li {
+        width: 45%;
+        margin: 0 4px;
+        border-radius: 3px;
+        padding: 10px 15px;
+        font-family: 'BwGradual';
+        margin-bottom: 10px;
+    }
+    .choase-phone{
+        height: 70vh;
+        background: url(../images/choach-bg.png);
+    }
+    .choach-filter{
+        flex-wrap: wrap;
+    }
+    .popup{
+        width: 95%;
+    }
+    .free-season-popup{
+        flex-direction: column;
+    }
+    .popup-from{
+        width: 100%;
+        padding: 20px;
+    }
+    .popup-img{
+        width: 100%;
+    }
+    .popup-img {
+        width: 100%;
+        display: none;
+        
+    }
+    .navbar{
+        z-index: 99;
+    }
+    .popup-from .col-md-6{
+        width: 50%!important;
+    }
+
+    .close-btn img{
+        width: 33px;
+    }
+    .close-btn {
+        position: absolute;
+        right: 11px;
+        top: 14px;
+    }
+    .popup-from h2 {
+        font-size: 27px!important;
+        margin-bottom: 30px;
+    }
+    .overlay{
+        z-index: 99;
+    }
+    .navbar-brand img{
+        width: 110px;
+    }
+    .navbar-brand{
+        padding-left: 34px;
+    }
+    i.fas.fa-bars {
+        top: 30px;
+        position: absolute;
+        left: 16px;
+    }
+    section.how-work.section-padding {
+    padding-bottom: 0;
+    padding-top: 25px;
+}
+    .price-detailes h4{
+        color: #fff;
+    }
+    .how-work.center-title {
+        margin-bottom: 50px;
+    }
+    .price-detailes p{
+        color: #fff;
+    }
+
+    .faq-message ul{
+        display: none;
+    }
+    .faq-content p{
+        padding-top: 10px;
+    }
+    ul.policy-phone.for-desktop {
+        display: none;
+    }
+    .footer-for-phone ul{
+        display: flex;
+        justify-content: center;
+
+    }
+    .footer-for-phone ul li{
+        color: #fff;
+        font-size: 12px;
+       
+    }
+    .footer-for-phone ul li a{
+        color: #fff;
+        margin: 0 25px;
+        font-size: 12px;
+    }
+    .footer-logo img{
+        width: 100px;
+        margin-bottom: 30px;
+    }
+    .faq-message {
+        height: 284px;
+
+    }
+
+    .conditions-main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .plan-box {
+        padding: 13px 10px;
+        border-radius: 2px;
+        background: #F2F2F2;
+    }
+    .buy-header {
+        padding: 25px 0;
+        width: 100%;
+        background: #F2F2F2;
+    }
+    select#country-code{
+        height: 43px;
+    }
+    .first-price.price-box h4::after{
+        top: 137px;
+    }
+    .buy-header img{
+        width: 110px;
+    }
+    .number-filed #country-code {
+    margin-right: 3px;
+    width: 79%;
+    padding: 0;
+    height: 36px;
+}
+
+}
+
