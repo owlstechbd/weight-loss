@@ -608,6 +608,27 @@
         padding: 6px 8px;
         font-size: 13px;
     }
+    .for-smallscreen .logo{
+        margin-top: 20px;
+    }
+    .for-smallscreen .page-hero-content {
+        text-align: left;
+    }
+    .for-smallscreen .page-hero-content p{
+        padding: 15px 0 10px;
+    }
+    .guide{
+        height: auto;
+        padding-top: 100px;
+        border-radius: 138.657px 0 0;
+        background-position-x: -872px;
+    }
+    .feature {
+        padding: 100px 0 50px;
+        border-radius: 0 121px 0 0;
+    }
+
+
 
 }
 
