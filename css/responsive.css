@@ -618,14 +618,21 @@
         padding: 15px 0 10px;
     }
     .guide{
+        background: url(../images/whight-loss/phone-guide.png) center center no-repeat!important;
+        background-size: cover!important;
         height: auto;
-        padding-top: 100px;
-        border-radius: 138.657px 0 0;
-        background-position-x: -872px;
+        padding-top: 60px;
+        border-radius: 118.657px 0 0;
     }
     .feature {
         padding: 100px 0 50px;
         border-radius: 0 121px 0 0;
+    }
+    .for-smallscreen .logo img{
+        width: 100px;
+    }
+    .feature-content h4{
+        text-align: center;
     }
 
 
