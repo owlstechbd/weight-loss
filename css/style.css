@@ -1877,7 +1877,7 @@ section.problem-slove.section-padding{
 	width: 100%;
 }
 .feature-content{
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 }
 .feature-content h4{
 	font-size: 22px;
@@ -1968,7 +1968,7 @@ section.problem-slove.section-padding{
 .wight-price-box{
 	display: flex;
 	justify-content: center;
-	margin-top: 50px;
+	margin-top: 45px;
 	
 	
 }
@@ -1976,9 +1976,12 @@ section.problem-slove.section-padding{
 	width: 30%;
 }
 .price-list{
-	height: 50px;
+	height: 42px;
 	padding: 10px 0;
 	border-bottom: 1px #37373711 solid;
+}
+.price-list p img{
+	width: 15px;
 }
 .center-title2{
 	text-align: center;
@@ -1992,7 +1995,7 @@ section.problem-slove.section-padding{
 .price-list p{
 	color: #162B3F;
 	font-weight: 600;
-	font-size: 15px;
+	font-size: 14px;
 }
 .price-secon-iteam{
 	background-color:#ffffff;
@@ -2003,7 +2006,7 @@ section.problem-slove.section-padding{
 	font-weight: 600;
 	color: #162B3F;
 	padding: 10px 0 0;
-	font-size: 20px;
+	font-size: 18px;
 	padding-top: 15px;
 }
 .weight-price-iteam a{
@@ -2011,6 +2014,7 @@ section.problem-slove.section-padding{
 	margin-bottom: 40px;
 	padding: 7px 13px;
 	border-radius: 4px;
+	font-size: 14px;
 	color: #fff;
 }
 .wh-btn{
@@ -2053,6 +2057,12 @@ section.problem-slove.section-padding{
 }
 .wight-hero-content h1{
 	color: #172B3E;
+}
+.wight-hero .logo{
+	padding: 20px 0;
+}
+section.wight-price.section-padding {
+    padding: 70px 0;
 }
 @media screen and (max-width: 1292px){
 	.for-smallscreen{
