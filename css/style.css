@@ -1850,7 +1850,7 @@ section.problem-slove.section-padding{
 	border-bottom: 1px #ffffff10 solid;
 }
 .section-title{
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 50px;
@@ -1898,6 +1898,16 @@ section.problem-slove.section-padding{
 	display: flex;
 	align-items: center;
 	background: url(../images/whight-loss/action.png) center center no-repeat;
+	background-size: cover;
+}
+.action2{
+	
+	background: url(../images/whight-loss/action2.png) center center no-repeat;
+	background-size: cover;
+}
+.action3{
+	
+	background: url(../images/whight-loss/action-3.png) center center no-repeat;
 	background-size: cover;
 }
 .action h2{
@@ -2034,6 +2044,9 @@ section.problem-slove.section-padding{
 	height: 693px;
 	border-radius: 0px 0px 250px 0px;
 }
+.hero-height{
+	height: 700px;
+}
 .wight-hero-content{
 	width: 50%;
 	display: flex;
@@ -2071,6 +2084,26 @@ section.problem-slove.section-padding{
 }
 section.wight-price.section-padding {
     padding: 70px 0;
+}
+.yoga{
+	background: #F6C7D8;
+}
+.mental{
+	background: #172B3E;
+}
+.mental h1,
+.mental p{
+	color: #fff;
+}
+.mental a{
+	background: #fff;
+	color: #172B3E;
+}
+.wight-hero-content h1{
+	font-size: 57px!important;
+}
+.mental a i{
+	color: #172B3E;
 }
 @media screen and (max-width: 1292px){
 	.for-smallscreen{

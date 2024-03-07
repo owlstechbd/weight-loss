@@ -624,12 +624,26 @@
         padding-top: 60px;
         border-radius: 118.657px 0 0;
     }
+    .yoga-guide{
+        background: url(../images/whight-loss/yoga-guide.png) center center no-repeat!important;
+        background-size: cover!important;
+        height: auto;
+        padding-top: 60px;
+        border-radius: 118.657px 0 0;
+    }
+    .mentel-guide{
+        background: url(../images/whight-loss/mental-guide-phone.png) center center no-repeat!important;
+        background-size: cover!important;
+        height: auto;
+        padding-top: 60px;
+        border-radius: 118.657px 0 0;
+    }
     .feature {
         padding: 100px 0 50px;
         border-radius: 0 121px 0 0;
     }
     .for-smallscreen .logo img{
-        width: 100px;
+        width: 110px;
     }
     .feature-content h4{
         text-align: center;
